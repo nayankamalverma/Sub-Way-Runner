@@ -1,4 +1,3 @@
-using Assets.Scripts.Utilities;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "BuildingScriptableObjects", menuName = "ScriptableObject/BuildingScriptableObjects")]
@@ -13,4 +12,6 @@ public enum BuildingType
    B1,
    B2,
    B3,
+   B4,
+   B5
 }
