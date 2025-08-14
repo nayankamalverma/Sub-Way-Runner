@@ -62,7 +62,6 @@ namespace Assets.Scripts.Level
         {
             GameObject obs = obstaclePool.GetItem(GetRandomObstacle());
             obs.transform.position = obstacleSpawnPos.position;
-            obs.transform.rotation = obstacleSpawnPos.rotation;
         }
 
         private void MoveObstacles()

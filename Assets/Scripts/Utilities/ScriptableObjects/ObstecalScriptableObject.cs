@@ -11,8 +11,9 @@ namespace Assets.Scripts.Utilities
 
     public enum ObstacleType
     {
-        JumpOverBlock,
-        SlideInBlock,
-        Truck,
+        Train1,
+        Train2,
+        Train3,
+        Blocker,
     }
 }
