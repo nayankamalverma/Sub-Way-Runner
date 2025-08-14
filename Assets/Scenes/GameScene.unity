@@ -466,7 +466,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 637925259}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 2
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -522,7 +522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 637925262}
   rigidbody: {fileID: 637925261}
-  jumpForce: 5
+  jumpForce: 12
   laneChangeSpeed: 5
   spawnPosition: {x: -4, y: 0, z: 0}
   laneWidth: 2
