@@ -4,7 +4,7 @@
   <img src="https://via.placeholder.com/600x300/4ecdc4/ffffff?text=Sub-way-Runner+Game" alt="Sub-way-Runner Game Screenshot" width="600">
 </div>
 
-A endless 3D runner game built with Unity #D
+A endless 3D runner game built with Unity 3D
 
 ## 🎯 Features
 - Endless 3D running gameplay
