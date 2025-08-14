@@ -265,7 +265,7 @@ Transform:
   m_GameObject: {fileID: 139313804}
   serializedVersion: 2
   m_LocalRotation: {x: 0.05861572, y: 0.7046732, z: -0.05861572, w: 0.7046732}
-  m_LocalPosition: {x: -4, y: 2.75, z: 0}
+  m_LocalPosition: {x: -7.52, y: 2.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -451,7 +451,7 @@ Transform:
   m_GameObject: {fileID: 637925259}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -4, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -522,9 +522,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collider: {fileID: 637925262}
   rigidbody: {fileID: 637925261}
-  jumpForce: 0
-  spawnPosition: {x: 0, y: 0, z: 0}
+  jumpForce: 5
+  laneChangeSpeed: 5
+  spawnPosition: {x: -4, y: 0, z: 0}
   laneWidth: 2
+  groundCheckDistance: 0.25
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  isGrounded: 0
 --- !u!1 &712421745
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,6 +582,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 2631152831610659215, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3796225797073363326, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
       propertyPath: m_fontSize
       value: 115.57
@@ -600,9 +610,21 @@ PrefabInstance:
       propertyPath: m_fontColor32.rgba
       value: 4278255588
       objectReference: {fileID: 0}
+    - target: {fileID: 4341431434692304421, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 57
+      objectReference: {fileID: 0}
     - target: {fileID: 4680855318122301628, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 5276832361066837654, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 6262049150870717897, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7943268653683078950, guid: 59e64190e179f7d4286df9bbf08d2977, type: 3}
       propertyPath: m_Pivot.x
